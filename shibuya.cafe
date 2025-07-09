@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MONKEY CAFE / MONKEY GALLERY</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="antialiased text-gray-800">
+  <!-- Header & Navigation -->
+  <header class="bg-white shadow sticky top-0 z-10">
+    <div class="max-w-4xl mx-auto flex items-center justify-between p-4">
+      <h1 class="text-xl font-bold">MONKEY CAFE</h1>
+      <nav>
+        <ul class="flex space-x-4 text-sm font-medium">
+          <li><a href="#cafe" class="hover:underline">カフェ</a></li>
+          <li><a href="#gallery" class="hover:underline">ギャラリー</a></li>
+          <li><a href="#exhibitions" class="hover:underline">展示情報</a></li>
+          <li><a href="#access" class="hover:underline">アクセス</a></li>
+          <li><a href="#contact" class="hover:underline">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4">
+    <!-- Cafe Intro -->
+    <section id="cafe" class="py-10">
+      <h2 class="text-2xl font-semibold mb-4">緑に囲まれた12角形のカフェ</h2>
+      <p class="leading-relaxed">
+        ハンドドリップで淹れたスペシャリティコーヒーと、<br>
+        現代アートを楽しめる空間「モンキーカフェ」。<br>
+        営業時間 <strong>10:00–19:00（L.O.18:30）</strong>
+      </p>
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <img src="https://ext.same-assets.com/4205856170/1890248622.jpeg" alt="MONKEY CAFE 外観" class="rounded">
+        <img src="https://ext.same-assets.com/4205856170/375122170.jpeg" alt="MONKEY CAFE 建物全景" class="rounded">
+      </div>
+    </section>
+
+    <!-- Gallery Intro -->
+    <section id="gallery" class="py-10 border-t">
+      <h2 class="text-2xl font-semibold mb-4">MONKEY GALLERY</h2>
+      <p class="leading-relaxed">
+        カフェ併設のギャラリーでは、国内外のアーティストによる個展・グループ展を開催しています。
+      </p>
+    </section>
+
+    <!-- Exhibitions -->
+    <section id="exhibitions" class="py-10 border-t">
+      <h2 class="text-2xl font-semibold mb-6">開催中 / 近日開催の展示</h2>
+
+      <!-- Exhibition Card 1-->
+      <article class="mb-8 bg-gray-50 p-6 rounded shadow-sm">
+        <h3 class="text-xl font-semibold mb-2">Marie Katayama Solo Exhibition 「MOTHERS展」</h3>
+        <p class="text-sm text-gray-600 mb-4">2025年7月24日(木) – 7月30日(水) ／ 入場無料</p>
+        <p class="leading-relaxed mb-4">
+          自然への敬意と生命の力強さを描く、片山摩利恵8年ぶりの個展。
+        </p>
+        <a href="#" class="inline-block text-blue-600 hover:underline text-sm">詳しく読む</a>
+      </article>
+
+      <!-- Exhibition Card 2-->
+      <article class="mb-8 bg-gray-50 p-6 rounded shadow-sm">
+        <h3 class="text-xl font-semibold mb-2">Uta Itaya Solo Exhibition 『Breezy Boundaries』</h3>
+        <p class="text-sm text-gray-600 mb-4">2025年8月2日(土) – 8月11日(月･祝) ／ 入場無料</p>
+        <p class="leading-relaxed mb-4">
+          色と模様がやわらかく交差する、新シリーズのドローイング作品。
+        </p>
+        <a href="#" class="inline-block text-blue-600 hover:underline text-sm">詳しく読む</a>
+      </article>
+    </section>
+
+    <!-- Access -->
+    <section id="access" class="py-10 border-t">
+      <h2 class="text-2xl font-semibold mb-4">アクセス</h2>
+      <p class="leading-relaxed">
+        〒150‑0033 東京都渋谷区猿楽町12‑8<br>
+        東急東横線 代官山駅 徒歩4分
+      </p>
+      <div class="mt-4">
+        <!-- Google Map -->
+        <iframe src="https://maps.google.com/maps?q=35.649025,139.703472&hl=ja&z=15&output=embed" class="w-full h-64 border rounded" title="Google Map"></iframe>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-10 border-t">
+      <h2 class="text-2xl font-semibold mb-4">お問い合わせ</h2>
+      <p class="leading-relaxed mb-2">MONKEY CAFE ☎ 03‑5728‑6260 (10:00–19:00)</p>
+      <p class="leading-relaxed mb-2">MONKEY GALLERY ☎ 03‑3464‑3766 (平日10:00–18:00)</p>
+      <p class="leading-relaxed">貸切・撮影利用については<a href="#" class="text-blue-600 hover:underline">こちら</a>からご連絡ください。</p>
+    </section>
+  </main>
+
+  <footer class="bg-gray-100 text-center text-xs py-4">
+    Copyright © Super Planning Co., Ltd.
+  </footer>
+</body>
+</html>
